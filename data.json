@@ -52,12 +52,12 @@
         "title" : "Snip2Clip",
         "date" : "September 2021",
         "description": [
-            ""
+            "Snip2Clip is a personal software project that I undertook with the aim of enhancing my Java programming skills and exploring the capabilities of Maven, a widely used build automation tool for managing external libraries in software projects. This program is designed specifically for Windows operating systems and enables users to capture a selected portion of their computer screen and copy any text present within that section to their clipboard, providing a simple solution for extracting text from images or videos.",
+            "The process works by drawing a frame onto a translucent background across the user's screen, allowing them to click and drag over whichever section they wish to copy. A screen capture is then taken of that section of the screen and passed through an external library called tesseract, which performs optical character recognition (OCR) on the image. Lastly, the extracted text is copied to the user's clipboard, available for them to paste using CTRL + V."
         ],
         "github": "https://github.com/thomascowan/snippet-to-clipboard",
         "imageAddr" : [
-            "Snip2Clip is a personal software project that I undertook with the aim of enhancing my Java programming skills and exploring the capabilities of Maven, a widely used build automation tool for managing external libraries in software projects. This program is designed specifically for Windows operating systems and enables users to capture a selected portion of their computer screen and copy any text present within that section to their clipboard, providing a simple solution for extracting text from images or videos.",
-            "The process works by drawing a frame onto a translucent background across the user's screen, allowing them to click and drag over whichever section they wish to copy. A screen capture is then taken of that section of the screen and passed through an external library called tesseract, which performs optical character recognition (OCR) on the image. Lastly, the extracted text is copied to the user's clipboard, available for them to paste using CTRL + V."
+            ""
         ]
     },{
         "title" : "Password Generator",
