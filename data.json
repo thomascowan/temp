@@ -1,30 +1,100 @@
 [
     {
         "title" : "Arborist Reports",
-        "description": "Arborist Reports is a desktop application that provides the user with a form and generates a pdf based on the information provided. I developed this application to give to a local arborist that I have mutual connections with as they spent a majority of their time creating the reports. What my product does is takes a report template and fills in information in the appropriate locations. The data was placed into the report in different ways such as a paragraph, table, and images. These images were also generated through my application by using measurements given by the user and producing an image. Overall, I believe this application will reduce the amount of time spent on creating these reports by 80%.",
+        "date" : "February 2021",
+        "description": [
+            "Arborist Reports is a desktop application designed to generate a PDF report based on the information provided by the user via a simple and user-friendly form. I was approached by a local arborist who expressed the need for automating the reporting process as a majority of their time was spent building these reports each time they completed an inspection. Through collaboration with the arborist, I was able to identify key areas in the process that could be streamlined, resulting in the creation of Arborist Reports.",
+            "By using Arborist Reports, users can easily input data from site inspections and generate a comprehensive report with minimal editing and proofing. The workflow that was automated includes generating paragraphs, populating tables, and creating images of the inspection site, among other tasks. Arborist Reports has received positive feedback from the arborist involved stating that they save 50% of the time they spent creating the reports.",
+            "In summary, Arborist Reports offers arborists a simple, efficient, and effective solution to streamline their reporting process, allowing them to focus more on their primary responsibilities."
+        ],
         "github": "https://github.com/thomascowan/Arborist-Reports",
-        "imageAddr" : ["https://images.unsplash.com/photo-1524781289445-ddf8f5695861?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"]
-    },
-    {
-        "title" : "Macquarie Autonomous Transit System",
-        "description": "The Macquarie Autonomous Transit System (MQ-ATS) was a project developed in my third year studying at Macquarie University in a class called “Engineering Project Practice”. The task this year was the build an autonomous transit system that would be capable of detecting when upcoming stations are and react according to the current instructions provided to it. Similar to my project last year, I was placed into the communications branch and placed into a smaller team focusing on the control box. Within the control box, three main pieces of functionality needed to be implemented; the state machine, the user interface, and the Bluetooth communication. I was tasked with developing the Bluetooth communication that allowed the control box and the motor controller to communicate. I did this by building frames of data to be sent between each component through Bluetooth via the serial port on the Arduino Uno and Arduino Mega. One byte of information was sent in each message allowing for 256 different states to be communicated at any time. Unfortunately by the end of the project, we did not have enough time left to test.",
-        "github": "",
-        "imageAddr" : ["https://images.unsplash.com/photo-1610194352361-4c81a6a8967e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80"]
-    },
-    {
+        "imageAddr" : [
+            "https://www.dropbox.com/s/deislv4l5opyajd/ArboristReport2.png?raw=1",
+            "https://www.dropbox.com/s/fp4k4rgdd158fe8/ArboristReports.png?raw=1"
+        ]
+    },{
+        "title" : "MATS",
+        "date" : "June 2021",
+        "description": [
+            "During my third year studying at Macquarie University, I participated in the development of the Macquarie Autonomous Transit System (MQ-ATS) as part of the third year \"Engineering Project Practice\" unit. This project aimed to design an autonomous transit system that could identify upcoming stations and respond accordingly to the instructions provided. The project was organized into smaller groups, and I was assigned to the control box team within the communications branch. Our team focused on reading inputs into the control box and transferring data between the control box and the transit system.",
+            "To accomplish this, we developed a state machine to handle the correct procedures and usage of the control box while utilizing Bluetooth technology for the transfer of information. Specifically, I was responsible for the development of the Bluetooth communication system and worked closely with a junior engineering student, whom I supervised in the process. We made significant progress in the development environment, but we were unable to test our work on a working version of the transit system due to delays in production.",
+            "Participating in this project was a gratifying experience as it provided me with the freedom to research and develop solutions within the requirements of my specific area. It also allowed me to gain valuable leadership experience, which piqued my interest in pursuing project management in my future career."
+        ],
+        "github": "https://github.com/thomascowan/Arborist-Reports",
+        "imageAddr" : [
+            "https://www.dropbox.com/s/w2s24v6q7ny3pxo/MQAT.png?raw=1" 
+        ]
+    },{
         "title" : "Tetris",
-        "description": "This project was undertaken by my for no other reason than for fun. During summer break, I wanted to brush up my coding skills so that I would not forget all that I have learnt so far and not need to spend time getting back into the swing of things when the next semester started back up again. I decided to keep in practice by developing my version of Tetris. My version of Tetris is rather lack-luster as I attempted to make an exact copy of the original.",
-        "github": "https://github.com/thomascowan/Tetris",
-        "imageAddr" : ["https://images.unsplash.com/photo-1618202133208-2907bebba9e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"]
+        "date" : "May 2020",
+        "description": [
+            "The motivation behind undertaking this project was to gain more experience with multi-threaded programming and to continue developing programming skills during the break between university semesters. As I am not proficient in graphic design, I created a simplified version of Tetris that prioritized its main interactive features.",
+            "To achieve this, I implemented two critical processes. The first process involved the continuous dropping of tetrominos at a consistent rate, while the second process monitored inputs to control the falling tetrominos. These processes were implemented using threads, which provided me with the opportunity to experiment with locking functions that minimize the risk of race conditions, given that both threads updated the same information simultaneously."
+        ],
+        "github": "https://github.com/thomascowan/Arborist-Reports",
+        "imageAddr" : [
+            "https://www.dropbox.com/s/0ygueiuaste6rfn/Tetris.png?raw=1",
+            "https://www.dropbox.com/s/inbb34xwdcvdjra/Tetris2png.png?raw=1"
+        ]
     },{
-        "title" : "Elevator Challenge",
-        "description": "During my second year studying Engineering at Macquarie University, I completed a class called “Engineering Practice Projects” where I was placed into a team to assist in developing the chosen project. This year the chosen project was to build a functioning model elevator. Each group was first separated by their faculty and set to complete work related to their field, for me I was placed into the Communications field. Teams were further broken down into more module-specific groups as there were numerous parts that needed to be completed. My team and I were responsible for the motor controls and the sensors. I took lead on the sensors and by the end of the project, they were able to read in information about the current state of the elevator and relay that information back to the state machine allowing it to operate optimally. By the end of the project, our elevator worked with only some minor flaws. These flaws would include; level misalignment and incorrect display of floors. While these flaws were present, the overall outcome of the project was good as the elevator was able to move and correctly choose floors to visit in the optimal order.",
-        "github": "",
-        "imageAddr" : ["https://images.unsplash.com/photo-1495805442109-bf1cf975750b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"]
+        "title" : "MQU Elevator",
+        "date" : "June 2020",
+        "description": [
+            "During my third year of study at Macquarie University, I participated in the development of the MQU Elevator project as part of the second-year \"Engineering Project Practice\" unit. As a Software Engineering student, I was assigned to the communications branch of the project, specifically the motor controller and sensors of the elevator. Our team comprised four members, and we split the workload according to our interests, which led me to specialize in the sensor area.",
+            "My primary responsibility was to determine the optimal placement of sensors within the elevator shaft and use them to validate the machine's current state. This validation process worked in conjunction with the control box's state machine, confirming the elevator's position and enabling the state machine to issue commands at the appropriate time. The project was a success, and we were able to use the elevator as expected, with only minor flaws such as level misalignment.",
+            "What I found most enjoyable about this project was having the freedom to conduct my own testing and research on how to use the provided technology. As someone who loves learning about new technologies, I relished the opportunity to experiment and solve problems using the tools I had learned about."
+        ],
+        "github": "https://github.com/thomascowan/Arborist-Reports",
+        "imageAddr" : [
+            "https://www.dropbox.com/s/l8wgks22ihtr91p/ElevatorChallenge.png?raw=1"
+        ]
     },{
-        "title" : "FAKE",
-        "description": "During my second year studying Engineering at Macquarie University, I completed a class called “Engineering Practice Projects” where I was placed into a team to assist in developing the chosen project. This year the chosen project was to build a functioning model elevator. Each group was first separated by their faculty and set to complete work related to their field, for me I was placed into the Communications field. Teams were further broken down into more module-specific groups as there were numerous parts that needed to be completed. My team and I were responsible for the motor controls and the sensors. I took lead on the sensors and by the end of the project, they were able to read in information about the current state of the elevator and relay that information back to the state machine allowing it to operate optimally. By the end of the project, our elevator worked with only some minor flaws. These flaws would include; level misalignment and incorrect display of floors. While these flaws were present, the overall outcome of the project was good as the elevator was able to move and correctly choose floors to visit in the optimal order.",
+        "title" : "Snip2Clip",
+        "date" : "September 2021",
+        "description": [
+            ""
+        ],
+        "github": "https://github.com/thomascowan/snippet-to-clipboard",
+        "imageAddr" : [
+            "Snip2Clip is a personal software project that I undertook with the aim of enhancing my Java programming skills and exploring the capabilities of Maven, a widely used build automation tool for managing external libraries in software projects. This program is designed specifically for Windows operating systems and enables users to capture a selected portion of their computer screen and copy any text present within that section to their clipboard, providing a simple solution for extracting text from images or videos.",
+            "The process works by drawing a frame onto a translucent background across the user's screen, allowing them to click and drag over whichever section they wish to copy. A screen capture is then taken of that section of the screen and passed through an external library called tesseract, which performs optical character recognition (OCR) on the image. Lastly, the extracted text is copied to the user's clipboard, available for them to paste using CTRL + V."
+        ]
+    },{
+        "title" : "Password Generator",
+        "date" : "January 2022",
+        "description": [
+            "During my internship at Holman Webb Lawyers, I discovered that generating random passwords was among the most common tasks I needed to perform. Previously, we had used password generating websites or typed random characters on our keyboards until we reached the desired length. However, I found this method inefficient and time-consuming, as I often spent too much time ensuring the password had the right mix of letters, numbers, and special characters.",
+            "To address this issue, I took the initiative to develop a browser extension that could generate random passwords with a single click. After conducting some research, I learned how to develop and install browser extensions and developed a small tool to automate this task for me. By using this extension, I was able to save approximately five seconds per request that required a password.",
+            "Overall, this project allowed me to apply my problem-solving skills and technical knowledge to streamline a common task in the workplace."
+        ],
         "github": "",
-        "imageAddr" : ["https://images.unsplash.com/photo-1516681100942-77d8e7f9dd97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"]
+        "imageAddr" : [
+            "https://www.dropbox.com/s/vbwttwrsufbg74v/RandomPasswordGenerator0.png?raw=1",
+            "https://www.dropbox.com/s/jxu2srkmvg77bss/randomPassword.png?raw=1"
+        ]
+    },{
+        "title" : "Thesis on Fractals",
+        "date" : "June 2022",
+        "description": [
+            "In my final year as an undergraduate student in Software Engineering at Macquarie University, I undertook a thesis project entitled \"Fractal Characterization of Graphical Analysis of Distribution Grids.\" As part of my degree requirements, I was tasked with contributing original research to the field of engineering. Under the guidance of Professor Bernard Mans, I worked on and completed my thesis, which focused on graphical analysis of distribution grids and identifying fractal characteristics within those results. This thesis presents the methodology, findings, and implications of my research. Below you can read the abstract of my thesis.",
+            "Sustainability has become increasingly important in today’s society. One key area to improve sustainability is to improve energy distribution to allow a transition to smart grids. In this thesis, I complete a literature review on urban development, fractals, and the power grid where I talk about the overlap between urban development and fractals, thus leading it towards the potential overlap between fractals and the power grid. I present my program to determine the fractal dimension of a power grid in order to observe whether the grid contains relevant fractal properties. These results are accompanied by various visual representations of the power usage data in Brisbane and Sydney as well as interesting comparisons between fractal dimensions at different times."
+        ],
+        "github": "https://1drv.ms/b/s!Au6Dm_mSNFZfh7k03bQcYISNrJoirA?e=JWXaAH",
+        "imageAddr" : [
+            "https://www.dropbox.com/s/st0jzs6mnjm6cfx/Thesis.png?raw=1",
+            "https://www.dropbox.com/s/5nul75qvnvfqkrb/Thesis2.png?raw=1"
+        ]
+    },{
+        "title" : "Context Menu",
+        "date" : "November 2022",
+        "description": [
+            "During my internship at Holman Webb Lawyers, I sought out opportunities to streamline and automate recurring tasks for myself and my colleagues. One task in particular that required a significant amount of time and effort was locating a document in our cloud storage infrastructure through the browser, when we were only provided with a file link that opened in desktop software. Although the desktop software could handle most tasks, there were several additional functions that could only be performed through the browser, which was my preferred method of accessing documents.",
+            "To address this issue, I developed a solution that added an option to the window's context menu for .nrl files. This option became available when right-clicking on the file, and when selected, it automatically opened the corresponding document in the web browser. I achieved this by configuring the settings in the window's registry editor, resulting in a significant reduction in the time and effort required to locate documents."
+        ],
+        "github": "https://github.com/thomascowan/Arborist-Reports",
+        "imageAddr" : [
+            "https://www.dropbox.com/s/j03u16sqh7zcch4/context.png?raw=1"
+        ]
     }
 ]
+
