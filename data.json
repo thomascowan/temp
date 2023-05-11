@@ -12,7 +12,8 @@
             "https://www.dropbox.com/s/deislv4l5opyajd/ArboristReport2.png?raw=1",
             "https://www.dropbox.com/s/fp4k4rgdd158fe8/ArboristReports.png?raw=1"
         ],
-        "icon": "faFile"
+        "icon": "faFile",
+        "catch": ""
     },{
         "title" : "MATS",
         "date" : "June 2021",
@@ -25,7 +26,8 @@
         "imageAddr" : [
             "https://www.dropbox.com/s/w2s24v6q7ny3pxo/MQAT.png?raw=1" 
         ],
-        "icon": "faTrain"
+        "icon": "faTrain",
+        "catch": "Group Engineering project at Macquarie University"
     },{
         "title" : "Tetris",
         "date" : "May 2020",
@@ -38,7 +40,8 @@
             "https://www.dropbox.com/s/0ygueiuaste6rfn/Tetris.png?raw=1",
             "https://www.dropbox.com/s/inbb34xwdcvdjra/Tetris2png.png?raw=1"
         ],
-        "icon": "faTableCellsLarge"
+        "icon": "faTableCellsLarge",
+        "catch": ""
     },{
         "title" : "MQU Elevator",
         "date" : "June 2020",
@@ -51,7 +54,8 @@
         "imageAddr" : [
             "https://www.dropbox.com/s/l8wgks22ihtr91p/ElevatorChallenge.png?raw=1"
         ],
-        "icon": "faElevator"
+        "icon": "faElevator",
+        "catch": ""
     },{
         "title" : "Snip2Clip",
         "date" : "September 2021",
@@ -63,7 +67,8 @@
         "imageAddr" : [
             ""
         ],
-        "icon": "faScissors"
+        "icon": "faScissors",
+        "catch": "Screen capture to copy text to"
     },{
         "title" : "Password Generator",
         "date" : "January 2022",
@@ -76,7 +81,8 @@
         "imageAddr" : [
             "https://www.dropbox.com/s/jxu2srkmvg77bss/randomPassword.png?raw=1"
         ],
-        "icon": "faKey"
+        "icon": "faKey",
+        "catch": ""
     },{
         "title" : "Thesis on Fractals",
         "date" : "June 2022",
@@ -89,7 +95,8 @@
             "https://www.dropbox.com/s/st0jzs6mnjm6cfx/Thesis.png?raw=1",
             "https://www.dropbox.com/s/5nul75qvnvfqkrb/Thesis2.png?raw=1"
         ],
-        "icon": "faFile"
+        "icon": "faFile",
+        "catch": "Thesis paper completed for my undergraduate degree"
     },{
         "title" : "Context Menu",
         "date" : "November 2022",
@@ -101,7 +108,8 @@
         "imageAddr" : [
             "https://www.dropbox.com/s/j03u16sqh7zcch4/context.png?raw=1"
         ],
-        "icon": "faFolder"
+        "icon": "faFolder",
+        "catch": ""
     }
 ]
 
