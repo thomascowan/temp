@@ -68,7 +68,7 @@
             ""
         ],
         "icon": "faScissors",
-        "catch": "Screen capture to copy text to"
+        "catch": "Screen capture to copy text to clipboard"
     },{
         "title" : "Password Generator",
         "date" : "January 2022",
