@@ -11,7 +11,8 @@
         "imageAddr" : [
             "https://www.dropbox.com/s/deislv4l5opyajd/ArboristReport2.png?raw=1",
             "https://www.dropbox.com/s/fp4k4rgdd158fe8/ArboristReports.png?raw=1"
-        ]
+        ],
+        "icon": "faFile"
     },{
         "title" : "MATS",
         "date" : "June 2021",
@@ -23,7 +24,8 @@
         "github": "https://github.com/thomascowan/Arborist-Reports",
         "imageAddr" : [
             "https://www.dropbox.com/s/w2s24v6q7ny3pxo/MQAT.png?raw=1" 
-        ]
+        ],
+        "icon": "faTrain"
     },{
         "title" : "Tetris",
         "date" : "May 2020",
@@ -35,7 +37,8 @@
         "imageAddr" : [
             "https://www.dropbox.com/s/0ygueiuaste6rfn/Tetris.png?raw=1",
             "https://www.dropbox.com/s/inbb34xwdcvdjra/Tetris2png.png?raw=1"
-        ]
+        ],
+        "icon": "faBlock"
     },{
         "title" : "MQU Elevator",
         "date" : "June 2020",
@@ -47,7 +50,8 @@
         "github": "https://github.com/thomascowan/Arborist-Reports",
         "imageAddr" : [
             "https://www.dropbox.com/s/l8wgks22ihtr91p/ElevatorChallenge.png?raw=1"
-        ]
+        ],
+        "icon": "faElevator"
     },{
         "title" : "Snip2Clip",
         "date" : "September 2021",
@@ -58,7 +62,8 @@
         "github": "https://github.com/thomascowan/snippet-to-clipboard",
         "imageAddr" : [
             ""
-        ]
+        ],
+        "icon": "faScissors"
     },{
         "title" : "Password Generator",
         "date" : "January 2022",
@@ -69,9 +74,9 @@
         ],
         "github": "",
         "imageAddr" : [
-            "https://www.dropbox.com/s/vbwttwrsufbg74v/RandomPasswordGenerator0.png?raw=1",
             "https://www.dropbox.com/s/jxu2srkmvg77bss/randomPassword.png?raw=1"
-        ]
+        ],
+        "icon": "faKey"
     },{
         "title" : "Thesis on Fractals",
         "date" : "June 2022",
@@ -83,7 +88,8 @@
         "imageAddr" : [
             "https://www.dropbox.com/s/st0jzs6mnjm6cfx/Thesis.png?raw=1",
             "https://www.dropbox.com/s/5nul75qvnvfqkrb/Thesis2.png?raw=1"
-        ]
+        ],
+        "icon": "faFile"
     },{
         "title" : "Context Menu",
         "date" : "November 2022",
@@ -94,7 +100,8 @@
         "github": "https://github.com/thomascowan/Arborist-Reports",
         "imageAddr" : [
             "https://www.dropbox.com/s/j03u16sqh7zcch4/context.png?raw=1"
-        ]
+        ],
+        "icon": "faFolder"
     }
 ]
 
