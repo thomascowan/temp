@@ -22,7 +22,7 @@
             "To accomplish this, we developed a state machine to handle the correct procedures and usage of the control box while utilizing Bluetooth technology for the transfer of information. Specifically, I was responsible for the development of the Bluetooth communication system and worked closely with a junior engineering student, whom I supervised in the process. We made significant progress in the development environment, but we were unable to test our work on a working version of the transit system due to delays in production.",
             "Participating in this project was a gratifying experience as it provided me with the freedom to research and develop solutions within the requirements of my specific area. It also allowed me to gain valuable leadership experience, which piqued my interest in pursuing project management in my future career."
         ],
-        "github": "https://github.com/thomascowan/Arborist-Reports",
+        "github": "",
         "imageAddr" : [
             "https://www.dropbox.com/s/w2s24v6q7ny3pxo/MQAT.png?raw=1" 
         ],
@@ -35,7 +35,7 @@
             "The motivation behind undertaking this project was to gain more experience with multi-threaded programming and to continue developing programming skills during the break between university semesters. As I am not proficient in graphic design, I created a simplified version of Tetris that prioritized its main interactive features.",
             "To achieve this, I implemented two critical processes. The first process involved the continuous dropping of tetrominos at a consistent rate, while the second process monitored inputs to control the falling tetrominos. These processes were implemented using threads, which provided me with the opportunity to experiment with locking functions that minimize the risk of race conditions, given that both threads updated the same information simultaneously."
         ],
-        "github": "https://github.com/thomascowan/Arborist-Reports",
+        "github": "https://github.com/thomascowan/Tetris",
         "imageAddr" : [
             "https://www.dropbox.com/s/0ygueiuaste6rfn/Tetris.png?raw=1",
             "https://www.dropbox.com/s/inbb34xwdcvdjra/Tetris2png.png?raw=1"
@@ -50,7 +50,7 @@
             "My primary responsibility was to determine the optimal placement of sensors within the elevator shaft and use them to validate the machine's current state. This validation process worked in conjunction with the control box's state machine, confirming the elevator's position and enabling the state machine to issue commands at the appropriate time. The project was a success, and we were able to use the elevator as expected, with only minor flaws such as level misalignment.",
             "What I found most enjoyable about this project was having the freedom to conduct my own testing and research on how to use the provided technology. As someone who loves learning about new technologies, I relished the opportunity to experiment and solve problems using the tools I had learned about."
         ],
-        "github": "https://github.com/thomascowan/Arborist-Reports",
+        "github": "",
         "imageAddr" : [
             "https://www.dropbox.com/s/l8wgks22ihtr91p/ElevatorChallenge.png?raw=1"
         ],
@@ -104,7 +104,7 @@
             "During my internship at Holman Webb Lawyers, I sought out opportunities to streamline and automate recurring tasks for myself and my colleagues. One task in particular that required a significant amount of time and effort was locating a document in our cloud storage infrastructure through the browser, when we were only provided with a file link that opened in desktop software. Although the desktop software could handle most tasks, there were several additional functions that could only be performed through the browser, which was my preferred method of accessing documents.",
             "To address this issue, I developed a solution that added an option to the window's context menu for .nrl files. This option became available when right-clicking on the file, and when selected, it automatically opened the corresponding document in the web browser. I achieved this by configuring the settings in the window's registry editor, resulting in a significant reduction in the time and effort required to locate documents."
         ],
-        "github": "https://github.com/thomascowan/Arborist-Reports",
+        "github": "",
         "imageAddr" : [
             "https://www.dropbox.com/s/j03u16sqh7zcch4/context.png?raw=1"
         ],
