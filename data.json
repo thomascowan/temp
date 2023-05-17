@@ -65,7 +65,6 @@
         ],
         "github": "https://github.com/thomascowan/snippet-to-clipboard",
         "imageAddr" : [
-            ""
         ],
         "icon": "faScissors",
         "catch": "Screen capture to copy text to clipboard"
